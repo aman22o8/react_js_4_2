@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_heading {
+  font-size: 45px;
+  font-weight: 800;
+  color: #ffffff;
+  font-style: italic;
+  font-family: 'roboto';
+}
+.image_1 {
+  height: 300px;
+  width: 60vw;
+}
+.description {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  /* font-style: italic; */
+  font-family: 'roboto';
+}
+.description_2 {
+  font-size: 20px;
+  /* font-weight: 300; */
+  color: #94a3b8;
+  /* font-style: italic; */
+  font-family: 'roboto';
+}
+.button_Acclerate {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 110px;
+  height: 30px;
+  margin-right: 15px;
+}
+.button_Brake {
+  background-color: #07080c;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 2px;
+  color: #cbd5e1;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 110px;
+  height: 30px;
+  margin-left: 15px;
+}
